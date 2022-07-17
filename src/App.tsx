@@ -1,22 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import ReactTypingEffect from 'react-typing-effect';
+import "./firebase"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <ReactTypingEffect text={['stay tuned. fox day 2023 inbound.']}  />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://web.rollins.edu/about-rollins/traditions-and-history/fox-day.html"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          learn more
         </a>
       </header>
     </div>
